@@ -1,0 +1,70 @@
+h1,h2{
+  margin:auto;
+  text-align: center;
+
+}
+div{
+  margin: auto;
+  padding: 20px 5px 20px 5px;
+  border-style: solid;
+  border: 20px 40px 20px 40px;
+}
+fieldset {
+  border: none;
+  padding: 2rem 0;
+  border-bottom: 3px solid rgb(158, 126, 57);
+}
+form {
+  width: 80%;
+  max-width: 500px;
+  min-width: 300px;
+  border: 2px solid rgb(0,0,0);
+  text-align: left;
+  padding: 20px;
+  border-radius: 10px;
+  margin: auto;
+}
+body {
+  height: 100vh;
+  width: 100vh;
+  margin: auto;
+  background-color: #4c5197;
+  background-image: url=(./"B:\Jay Backup\desktop\Jay\20221019202746_IMG_9970.jpg");
+  background-size: cover;
+  background-repeat: no;
+  color: #f5f6f7;
+  font-family: Tahoma;
+  font-size: 16px;
+  padding-top: 30px;
+  border-radius: 10px;
+}
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+h2{
+  font-style: italic;
+}
+input, select {
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+}
+input[type="submit"] {
+  display: block;
+  width: 80%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #6e4025;
+  border-color: white;
+  min-width: 300px;
+  color: white;
+}
+input[type="checkbox"]{
+  width: unset;
+}
+input[type="radio"]{
+  width: unset;
+}

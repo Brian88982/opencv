@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>
+      <h1 id="title">Survey Form</h1>
+    </title>
+    <p id="description"><h1>Master Jay Photography Survey Form</h1></p>
+    <meta charset="UTF-8"/>
+    <h2>Thank you for taking time to help us improve the platform.</h2>
+    <link rel="stylesheet" href="survey.css"/>
+  </head>
+  <body>
+    <div>
+      <fieldset>
+    <form id="survey-form">
+      <label for=" name" id="name-label">Name
+      <input id="name" type="text" placeholder="Enter your name" required>
+      </input>
+      </label>
+      <label for="email" id="email-label">Email
+      <input id="email" type="email" placeholder="Enter your email" required>
+      </input>
+      </label>
+      <label for="age" id="number-label">Age
+      <input id="number" type="number" min="18" max="100" placeholder="Age">
+      </input>
+      </label>
+      
+      <label for="experience">Which option best describes your customer experience?
+      <select id="dropdown">
+        <option value="" default>(select one)
+        </option>
+        <option value="1">The best
+          </option>
+        <option value="2">Amazing
+        </option> <option value="3">Good
+          </option>
+        <option value="4">Not satisfied
+        </option>
+      </select>Would you reccomend Master Jay Photogrphy services to a friend?
+      <label for="definately">
+        <input id="definately" type="radio" name="reccomend">Definately
+          </input>
+      </label>
+      <label for="maybe">
+        <input id="maybe" type="radio" name="reccomend">Maybe</input>
+        </label>
+      <label for="not-sure">
+        <input type="radio" name="reccomend" id="not-sure">Not sure
+          </input>
+      </label>
+      <label for="service">Which is your favorite photography service?
+        <select id="dropdown" name="service">
+          <option value="" default>Select one
+          </option>
+          <option vale="1">Studio Shoot
+          </option>
+          <option value="2">Outdoor shoot
+          </option>
+          <option value="3">Indoor private shoot
+          </option>
+          <option value="4">Event photography
+          </option>
+          </select>
+      </label>
+      <label for="friends">
+        <input id="advert" type="checkbox" name="hear-about">Referred by a friend.
+        </label>
+        <label for="advert">
+          <input id="advert" type="checkbox" name="hear-about">
+          </input>Saw an advert.
+        </label>
+        <label for="tiktok">
+          <input id="tiktok" type="checkbox" name="hear-about">
+          </input>Tiktok.
+        </label>
+        <label for="whatsapp">
+          <input id="whatsapp" type="checkbox" name="hear-about">
+          </input>Whatsapp status.
+        </label>
+    
+    <label for="comment">Write a comment about Mastey Jay Photography
+    <input type="textarea" id="comment" type="text" placeholder="Say something about our services..." rows="3" cols="30" ></input>
+    </label>
+    </fieldset>
+    <input id="submit" type="submit" value="Submit" />
+    </form>
+    </div>
+  </body>
+</html>
